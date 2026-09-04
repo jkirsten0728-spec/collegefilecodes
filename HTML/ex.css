@@ -1,0 +1,38 @@
+
+button { 
+    color: black; 
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+button:hover {
+    opacity: 0.6;
+}
+button:active {
+    opacity: 0.3;
+}
+.cart {
+    background-color: rgb(255, 216, 20);  
+}
+.buy {
+    background-color: rgb(255, 164, 28);
+}
+
+table{
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    
+}
+
+tr{
+    background-color: white;
+}
+
+th{
+    background-color: rgb(200, 200, 255);
+}
+

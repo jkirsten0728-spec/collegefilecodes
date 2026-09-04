@@ -1,0 +1,156 @@
+
+
+<style>
+    .Subscribe{
+
+        background-color: rgb(200, 1, 1);
+        color:white;
+        font-weight: bold;
+        height: 36px;
+        width: 105px;
+        border-radius:5px;
+        cursor: pointer;
+        border: none;
+        margin-right: 10px;
+        transition: opacity 0.3s;
+    }
+
+    .Subscribe:hover{
+       opacity: 0.8;
+    }
+
+    .Subscribe:active{
+     opacity: 0.5;
+    }
+
+    .JOIN{
+        background-color: white;
+        color: blue;
+        height: 36px;
+        width: 62px;
+        border-color: blue;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+        border-radius: 2px;
+        margin-right: 10px;
+        transition: background-color 0.15s, color 0.15s;
+
+    }
+
+    .JOIN:hover{
+        background-color: blue;
+        color: white;
+      
+    }
+    .JOIN:active{
+        opacity:0.5;
+    }
+    .tweet{
+        background-color: rgb(86, 166, 203);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        height: 36px;
+        width: 69px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        margin-bottom: 10px;
+
+    }
+.tweet:hover{
+ box-shadow:5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagination a{
+    margin-left: 10px;
+    height: 36px;
+    width: 69px;
+    margin-right: 10px;
+}
+.back {
+    color: black;
+    height: 36px;
+    width: 69px;
+    size: 15px;
+    border: 0.5px solid;
+    font-family: Arial;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stretch{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 36px;
+    width: 89px;
+    font-size: 18;
+    transition: 0.2s;
+}
+
+.stretch:hover{
+ display: block;
+  width: 13%;
+  box-sizing: border-box;
+}
+
+.shadow{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    height: 36px;
+    width: 89px;
+    font-size: 18;
+    transition: box-shadow 0.2s;
+}
+.shadow:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.n{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18;
+    margin-right: 10px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+</style>
+
+
+<button class="Subscribe">Subscribe</button>
+<button class="JOIN">JOIN</button>
+<button class="tweet">Tweet</button>
+
+
+<div class="pagination">
+<button class="back" a href="#">Back</button>
+  <a href="#">1</a>
+  <a class="active" href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  
+ <button class="back" a href="#">Next</a>
+</div>
+
+<button class="stretch"> stretch</button>
+
+<button class="shadow">shadow</button>
+
+<p>
+<button class="n">ONE</button>
+<button class="n">TWO</button>
+<button class="n">THREE</button>
+</p>

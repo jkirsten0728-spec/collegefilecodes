@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    What is your name?
+    <input id="name">
+    <button id="my-button">Submit</button>
+    <p id="my-paragraph"></p>
+
+<script>
+document.getElementById("my-button").onclick= function(){
+
+    document.getElementById("my-paragraph").innerHTML="Hello " +  document.getElementById("name").value +"!";
+
+}
+
+
+</script>
+
+</body>
+</html>
